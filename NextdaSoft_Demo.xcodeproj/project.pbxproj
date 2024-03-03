@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28A132A958953658EDFC044F /* Pods_NextdaSoft_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B78139755BFCE8D44AB9A28F /* Pods_NextdaSoft_Demo.framework */; };
+		7F275A402B92FA7400EEC69B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F275A3F2B92FA7400EEC69B /* AppDelegate.swift */; };
+		7F275A422B92FA7400EEC69B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F275A412B92FA7400EEC69B /* SceneDelegate.swift */; };
+		7F275A442B92FA7400EEC69B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F275A432B92FA7400EEC69B /* ViewController.swift */; };
+		7F275A472B92FA7400EEC69B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F275A452B92FA7400EEC69B /* Main.storyboard */; };
+		7F275A492B92FA7800EEC69B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F275A482B92FA7800EEC69B /* Assets.xcassets */; };
+		7F275A4C2B92FA7800EEC69B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F275A4A2B92FA7800EEC69B /* LaunchScreen.storyboard */; };
+		7F275A542B930A9200EEC69B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F275A532B930A9200EEC69B /* LoginViewController.swift */; };
+		7F275A562B93288F00EEC69B /* saveDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F275A552B93288F00EEC69B /* saveDataViewController.swift */; };
+		7F72933A2B9374360053B452 /* saveDataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7293382B9374360053B452 /* saveDataTableViewCell.swift */; };
+		7F72933B2B9374360053B452 /* saveDataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F7293392B9374360053B452 /* saveDataTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B2CE1ACDB5633950DC7BD12 /* Pods-NextdaSoft_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NextdaSoft_Demo.debug.xcconfig"; path = "Target Support Files/Pods-NextdaSoft_Demo/Pods-NextdaSoft_Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		7F275A3C2B92FA7400EEC69B /* NextdaSoft_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NextdaSoft_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F275A3F2B92FA7400EEC69B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7F275A412B92FA7400EEC69B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7F275A432B92FA7400EEC69B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7F275A462B92FA7400EEC69B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F275A482B92FA7800EEC69B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F275A4B2B92FA7800EEC69B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F275A4D2B92FA7800EEC69B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F275A532B930A9200EEC69B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7F275A552B93288F00EEC69B /* saveDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = saveDataViewController.swift; sourceTree = "<group>"; };
+		7F7293382B9374360053B452 /* saveDataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = saveDataTableViewCell.swift; sourceTree = "<group>"; };
+		7F7293392B9374360053B452 /* saveDataTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = saveDataTableViewCell.xib; sourceTree = "<group>"; };
+		B78139755BFCE8D44AB9A28F /* Pods_NextdaSoft_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NextdaSoft_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F342B44BE6DB1E83D8886E25 /* Pods-NextdaSoft_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NextdaSoft_Demo.release.xcconfig"; path = "Target Support Files/Pods-NextdaSoft_Demo/Pods-NextdaSoft_Demo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F275A392B92FA7400EEC69B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28A132A958953658EDFC044F /* Pods_NextdaSoft_Demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28E72762A1AC6E7F0D0C8ED9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B2CE1ACDB5633950DC7BD12 /* Pods-NextdaSoft_Demo.debug.xcconfig */,
+				F342B44BE6DB1E83D8886E25 /* Pods-NextdaSoft_Demo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7F275A332B92FA7400EEC69B = {
+			isa = PBXGroup;
+			children = (
+				7F275A3E2B92FA7400EEC69B /* NextdaSoft_Demo */,
+				7F275A3D2B92FA7400EEC69B /* Products */,
+				28E72762A1AC6E7F0D0C8ED9 /* Pods */,
+				D43517B6F2D41F5BF01AF4A3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7F275A3D2B92FA7400EEC69B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F275A3C2B92FA7400EEC69B /* NextdaSoft_Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F275A3E2B92FA7400EEC69B /* NextdaSoft_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				7F275A3F2B92FA7400EEC69B /* AppDelegate.swift */,
+				7F275A412B92FA7400EEC69B /* SceneDelegate.swift */,
+				7F275A432B92FA7400EEC69B /* ViewController.swift */,
+				7F275A532B930A9200EEC69B /* LoginViewController.swift */,
+				7F275A552B93288F00EEC69B /* saveDataViewController.swift */,
+				7F7293382B9374360053B452 /* saveDataTableViewCell.swift */,
+				7F7293392B9374360053B452 /* saveDataTableViewCell.xib */,
+				7F275A452B92FA7400EEC69B /* Main.storyboard */,
+				7F275A482B92FA7800EEC69B /* Assets.xcassets */,
+				7F275A4A2B92FA7800EEC69B /* LaunchScreen.storyboard */,
+				7F275A4D2B92FA7800EEC69B /* Info.plist */,
+			);
+			path = NextdaSoft_Demo;
+			sourceTree = "<group>";
+		};
+		D43517B6F2D41F5BF01AF4A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B78139755BFCE8D44AB9A28F /* Pods_NextdaSoft_Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F275A3B2B92FA7400EEC69B /* NextdaSoft_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F275A502B92FA7800EEC69B /* Build configuration list for PBXNativeTarget "NextdaSoft_Demo" */;
+			buildPhases = (
+				EF69C3B780F92CD031061252 /* [CP] Check Pods Manifest.lock */,
+				7F275A382B92FA7400EEC69B /* Sources */,
+				7F275A392B92FA7400EEC69B /* Frameworks */,
+				7F275A3A2B92FA7400EEC69B /* Resources */,
+				7E2BC06F804C5B831FB3424F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NextdaSoft_Demo;
+			productName = NextdaSoft_Demo;
+			productReference = 7F275A3C2B92FA7400EEC69B /* NextdaSoft_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F275A342B92FA7400EEC69B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					7F275A3B2B92FA7400EEC69B = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 7F275A372B92FA7400EEC69B /* Build configuration list for PBXProject "NextdaSoft_Demo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F275A332B92FA7400EEC69B;
+			productRefGroup = 7F275A3D2B92FA7400EEC69B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F275A3B2B92FA7400EEC69B /* NextdaSoft_Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F275A3A2B92FA7400EEC69B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F275A4C2B92FA7800EEC69B /* LaunchScreen.storyboard in Resources */,
+				7F275A492B92FA7800EEC69B /* Assets.xcassets in Resources */,
+				7F72933B2B9374360053B452 /* saveDataTableViewCell.xib in Resources */,
+				7F275A472B92FA7400EEC69B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7E2BC06F804C5B831FB3424F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NextdaSoft_Demo/Pods-NextdaSoft_Demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NextdaSoft_Demo/Pods-NextdaSoft_Demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NextdaSoft_Demo/Pods-NextdaSoft_Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF69C3B780F92CD031061252 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NextdaSoft_Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F275A382B92FA7400EEC69B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F275A542B930A9200EEC69B /* LoginViewController.swift in Sources */,
+				7F275A562B93288F00EEC69B /* saveDataViewController.swift in Sources */,
+				7F72933A2B9374360053B452 /* saveDataTableViewCell.swift in Sources */,
+				7F275A442B92FA7400EEC69B /* ViewController.swift in Sources */,
+				7F275A402B92FA7400EEC69B /* AppDelegate.swift in Sources */,
+				7F275A422B92FA7400EEC69B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7F275A452B92FA7400EEC69B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F275A462B92FA7400EEC69B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F275A4A2B92FA7800EEC69B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F275A4B2B92FA7800EEC69B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F275A4E2B92FA7800EEC69B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F275A4F2B92FA7800EEC69B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F275A512B92FA7800EEC69B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B2CE1ACDB5633950DC7BD12 /* Pods-NextdaSoft_Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J7Q9Y7P546;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NextdaSoft_Demo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sarfaraz.NextdaSoft-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F275A522B92FA7800EEC69B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F342B44BE6DB1E83D8886E25 /* Pods-NextdaSoft_Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J7Q9Y7P546;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NextdaSoft_Demo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sarfaraz.NextdaSoft-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F275A372B92FA7400EEC69B /* Build configuration list for PBXProject "NextdaSoft_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F275A4E2B92FA7800EEC69B /* Debug */,
+				7F275A4F2B92FA7800EEC69B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F275A502B92FA7800EEC69B /* Build configuration list for PBXNativeTarget "NextdaSoft_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F275A512B92FA7800EEC69B /* Debug */,
+				7F275A522B92FA7800EEC69B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F275A342B92FA7400EEC69B /* Project object */;
+}

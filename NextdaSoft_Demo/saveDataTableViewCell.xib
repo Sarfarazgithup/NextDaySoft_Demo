@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="saveDataTableViewCell" rowHeight="129" id="KGk-i7-Jjw" customClass="saveDataTableViewCell" customModule="NextdaSoft_Demo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="305" height="129"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="305" height="129"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="google-25" translatesAutoresizingMaskIntoConstraints="NO" id="oA1-Pt-K45">
+                        <rect key="frame" x="8" y="8" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="85D-cr-Qb8"/>
+                            <constraint firstAttribute="height" constant="50" id="I45-fD-BIM"/>
+                        </constraints>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="nqW-KJ-ROH">
+                        <rect key="frame" x="66" y="10.666666666666668" width="58" height="44.666666666666657"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="122" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F9x-9f-8mI">
+                                <rect key="frame" x="0.0" y="0.0" width="58" height="20.333333333333332"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="daasdff" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b6N-qK-3mR">
+                                <rect key="frame" x="0.0" y="24.333333333333336" width="58" height="20.333333333333336"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dmg-cq-d4X">
+                        <rect key="frame" x="247" y="16" width="54" height="24"/>
+                        <color key="backgroundColor" red="0.17621558900000001" green="0.41168594359999999" blue="0.61571222540000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="jSO-55-1fp"/>
+                            <constraint firstAttribute="width" constant="54" id="xXx-PJ-nqE"/>
+                        </constraints>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain" title="Buy">
+                            <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </buttonConfiguration>
+                        <connections>
+                            <action selector="buyActionBtn:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="BfX-Uh-oMb"/>
+                        </connections>
+                    </button>
+                    <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="Udt-6M-Z6X">
+                        <rect key="frame" x="207" y="16" width="94" height="32"/>
+                        <color key="backgroundColor" red="0.17621558900000001" green="0.41168594359999999" blue="0.61571222540000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <connections>
+                            <action selector="stepperActionBtn:" destination="KGk-i7-Jjw" eventType="valueChanged" id="kif-d1-Pm5"/>
+                        </connections>
+                    </stepper>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="nqW-KJ-ROH" firstAttribute="centerY" secondItem="oA1-Pt-K45" secondAttribute="centerY" id="0la-Iy-RbU"/>
+                    <constraint firstAttribute="trailing" secondItem="Dmg-cq-d4X" secondAttribute="trailing" constant="4" id="2SK-fw-Uf6"/>
+                    <constraint firstItem="oA1-Pt-K45" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="9m7-5b-kOd"/>
+                    <constraint firstItem="nqW-KJ-ROH" firstAttribute="leading" secondItem="oA1-Pt-K45" secondAttribute="trailing" constant="8" id="LQ2-cE-sHK"/>
+                    <constraint firstItem="Dmg-cq-d4X" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="Uvo-uK-DuG"/>
+                    <constraint firstAttribute="trailing" secondItem="Udt-6M-Z6X" secondAttribute="trailing" constant="4" id="deU-om-hIg"/>
+                    <constraint firstItem="Udt-6M-Z6X" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="m1x-kb-eMh"/>
+                    <constraint firstItem="oA1-Pt-K45" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="qjT-YZ-8bV"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="batchNo" destination="F9x-9f-8mI" id="RPc-ks-7hF"/>
+                <outlet property="buyBtn" destination="Dmg-cq-d4X" id="CFr-mI-P8Y"/>
+                <outlet property="myImage" destination="oA1-Pt-K45" id="xQw-Bg-y9h"/>
+                <outlet property="name" destination="b6N-qK-3mR" id="IRt-3q-juz"/>
+                <outlet property="stepperBtn" destination="Udt-6M-Z6X" id="iBd-d2-EDD"/>
+            </connections>
+            <point key="canvasLocation" x="190" y="-4.62085308056872"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="google-25" width="25" height="25"/>
+    </resources>
+</document>
